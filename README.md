@@ -1,9 +1,12 @@
 # MMCFusion
-Infrared and Visible Image Fusion Based on Multi-modal and Multi-scale Cross-compensation
+### Infrared and Visible Image Fusion Based on Multi-modal and Multi-scale Cross-compensation
 
 Meitian Li, Jing Sun, Heng Ma, Fasheng Wang and Fuming Sun
 
-Abstract : To tackle the challenge of detail information loss and redundancy in existing infrared and visible
+***************
+### Abstract : 
+
+To tackle the challenge of detail information loss and redundancy in existing infrared and visible
  fusion algorithms, this paper proposes a novel infrared and visible image fusion network based on
  Multi-modal and Multi-scale Cross-compensation (MMCFusion).The proposed network incorporates
  an Upper-Lower Level Cross-Compensation Module (ULCC) that integrates features from adjacent
@@ -29,10 +32,14 @@ sults demonstrate that the proposedmethodsignificantlyoutperformsexistingstate-o
 
  ## Quick Run
 
+```python
 python train.py
+```
 
 ## Test (Evaluation)
 
+```python
 python test.py
+```
 
  
